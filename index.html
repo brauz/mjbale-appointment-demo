@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MJBale x Brauz: Appointment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 border border-black rounded-2xl bg-white text-black text-center uppercase text-base font-semibold font-sans w-full max-w-3xl"
+    >
+      <a
+        href="#"
+        class="py-4 hover:bg-gray-100 rounded-lg transition-colors"
+        onClick="window.Brauz_open_book_a_stylist_dialog()"
+        >Book Now</a
+      >
+
+      <br />
+      <hr />
+      <br />
+
+      <a
+        href="#"
+        class="py-4 hover:bg-gray-100 rounded-lg transition-colors"
+        onClick="window.Brauz_open_book_a_stylist_dialog({ selected_child_form_id: 'B5-1625528380' })"
+        >Wedding Party Consultations</a
+      >
+      <a
+        href="#"
+        class="py-4 hover:bg-gray-100 rounded-lg transition-colors"
+        onclick="window.Brauz_open_book_a_stylist_dialog({ selected_child_form_id: 'B5-1623826092' })"
+        >Wedding Party Fittings</a
+      >
+      <a
+        href="#"
+        class="py-4 hover:bg-gray-100 rounded-lg transition-colors"
+        onclick="window.Brauz_open_book_a_stylist_dialog({ selected_child_form_id: 'B5-1623826836' })"
+        >Made to Order Fitting</a
+      >
+      <a
+        href="#"
+        class="py-4 hover:bg-gray-100 rounded-lg transition-colors"
+        onclick="window.Brauz_open_book_a_stylist_dialog({ selected_child_form_id: 'B5-1627263178' })"
+        >Garment Tailoring</a
+      >
+      <a
+        href="#"
+        class="py-4 hover:bg-gray-100 rounded-lg transition-colors"
+        onclick="window.Brauz_open_book_a_stylist_dialog({ selected_child_form_id: 'B5-1623826787' })"
+        >Personal Styling Appointment</a
+      >
+    </div>
+
+    <script src="https://d3aq2u4yw77ivo.cloudfront.net/retailer-appointment/mjbale/bookAStylist.mjbale.dev.js"></script>
+    <script>
+      window.Brauz.initializeBrauzBookAStylist("MJBALE");
+    </script>
+  </body>
+</html>
